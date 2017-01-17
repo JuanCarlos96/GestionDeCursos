@@ -22,16 +22,16 @@ public class Curso {
         this.departamento = departamento;
     }
     
-    public ArrayList<Curso> buscarCurso(){
+    public ArrayList<Curso> obtenerCurso(){
         return null;
     }
     
-    public Curso modificar(String nombre, Departamento departamento){
-        return null;
+    public void modificarCurso(String nombre, Departamento departamento){
+    
     }
     
-    public Curso eliminar(){
-        return null;
+    public void eliminarCurso(){
+        
     }
 
     public int getId() {
